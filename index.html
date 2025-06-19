@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Poptalk - Healthy & Fresh Snacks</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f8fafc; /* Light gray background */
+        }
+        .hero-section {
+            background-image: linear-gradient(to right, #6EE7B7, #34D399); /* Green gradient */
+        }
+    </style>
+</head>
+<body class="antialiased text-gray-800">
+    <!-- Header Section -->
+    <header class="bg-white shadow-md py-4">
+        <div class="container mx-auto px-4 flex justify-between items-center">
+            <h1 class="text-3xl font-bold text-gray-900">Poptalk</h1>
+            <nav>
+                <ul class="flex space-x-6">
+                    <li><a href="#about" class="text-lg text-gray-700 hover:text-green-600 font-medium transition duration-300">About</a></li>
+                    <li><a href="#features" class="text-lg text-gray-700 hover:text-green-600 font-medium transition duration-300">Features</a></li>
+                    <li><a href="#contact" class="text-lg text-gray-700 hover:text-green-600 font-medium transition duration-300">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero-section text-white py-24 rounded-b-lg shadow-xl mb-16">
+        <div class="container mx-auto px-4 text-center">
+            <h2 class="text-5xl md:text-6xl font-extrabold mb-6 leading-tight">
+                Poptalk: Your Go-To for Healthy & Hot Snacks
+            </h2>
+            <p class="text-xl md:text-2xl mb-8 opacity-90">
+                Revolutionizing snacking with fresh, nutritious, and live-made delights.
+            </p>
+            <a href="#contact" class="bg-white text-green-600 hover:bg-gray-100 px-8 py-4 rounded-full text-lg font-bold shadow-lg transition duration-300 transform hover:scale-105">
+                Get in Touch
+            </a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="container mx-auto px-4 py-16 mb-16">
+        <div class="max-w-4xl mx-auto text-center">
+            <h3 class="text-4xl font-bold text-gray-900 mb-8">About Poptalk</h3>
+            <p class="text-lg text-gray-700 leading-relaxed">
+                Poptalk is not just another food vending machine. It's an innovative solution designed to bring
+                healthy, hot, and fresh snacks directly to you. We believe in providing nutritious options
+                that are prepared on-demand, ensuring every bite is as delicious as it is wholesome.
+            </p>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="bg-white py-16 mb-16 rounded-lg shadow-lg">
+        <div class="container mx-auto px-4">
+            <h3 class="text-4xl font-bold text-gray-900 text-center mb-12">What Makes Poptalk Unique?</h3>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
+                <!-- Feature 1: Healthy Snacks -->
+                <div class="flex flex-col items-center text-center p-6 bg-gray-50 rounded-xl shadow-sm hover:shadow-md transition duration-300 transform hover:scale-105">
+                    <img src="https://placehold.co/150x150/e0f7fa/00bcd4?text=Healthy+Snacks" alt="Healthy Snacks Icon" class="w-32 h-32 mb-6 rounded-full border-4 border-green-400 object-cover">
+                    <h4 class="text-2xl font-semibold text-gray-800 mb-4">Healthy & Nutritious Options</h4>
+                    <p class="text-md text-gray-600">
+                        We offer a wide selection of snacks that are carefully curated to be good for you.
+                        From whole grains to fresh fruits, Poptalk ensures your snacking is guilt-free.
+                    </p>
+                </div>
+                <!-- Feature 2: Live & Hot -->
+                <div class="flex flex-col items-center text-center p-6 bg-gray-50 rounded-xl shadow-sm hover:shadow-md transition duration-300 transform hover:scale-105">
+                    <img src="https://placehold.co/150x150/fff3e0/ff9800?text=Live+Cooking" alt="Live Cooking Icon" class="w-32 h-32 mb-6 rounded-full border-4 border-yellow-400 object-cover">
+                    <h4 class="text-2xl font-semibold text-gray-800 mb-4">Live, Hot & Freshly Made</h4>
+                    <p class="text-md text-gray-600">
+                        Experience the joy of snacks made right before your eyes. Poptalk prepares
+                        items live and serves them hot, ensuring maximum freshness and flavor.
+                    </p>
+                </div>
+                <!-- Feature 3: Convenience -->
+                <div class="flex flex-col items-center text-center p-6 bg-gray-50 rounded-xl shadow-sm hover:shadow-md transition duration-300 transform hover:scale-105">
+                    <img src="https://placehold.co/150x150/e8f5e9/4caf50?text=Convenient" alt="Convenience Icon" class="w-32 h-32 mb-6 rounded-full border-4 border-blue-400 object-cover">
+                    <h4 class="text-2xl font-semibold text-gray-800 mb-4">Unmatched Convenience</h4>
+                    <p class="text-md text-gray-600">
+                        Located where you need it most, Poptalk provides quick and easy access to
+                        delicious and healthy snacks, anytime you crave them.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Images Section -->
+    <section class="container mx-auto px-4 py-16 mb-16">
+        <h3 class="text-4xl font-bold text-gray-900 text-center mb-12">Our Vending Business in Action</h3>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            <div class="bg-white rounded-lg shadow-lg overflow-hidden transition duration-300 transform hover:scale-105">
+                <img src="https://placehold.co/600x400/FFECB3/FB8C00?text=Vending+Machine" alt="Vending Machine in Office" class="w-full h-64 object-cover">
+                <div class="p-6">
+                    <p class="text-lg font-semibold text-gray-800">Modern Vending Solutions</p>
+                    <p class="text-gray-600 mt-2">Sleek design, easy to use interface.</p>
+                </div>
+            </div>
+            <div class="bg-white rounded-lg shadow-lg overflow-hidden transition duration-300 transform hover:scale-105">
+                <img src="https://placehold.co/600x400/BBDEFB/2196F3?text=Fresh+Snacks" alt="Freshly Prepared Snacks" class="w-full h-64 object-cover">
+                <div class="p-6">
+                    <p class="text-lg font-semibold text-gray-800">Freshness Guaranteed</p>
+                    <p class="text-gray-600 mt-2">Hot and fresh snacks, prepared on demand.</p>
+                </div>
+            </div>
+            <div class="bg-white rounded-lg shadow-lg overflow-hidden transition duration-300 transform hover:scale-105">
+                <img src="https://placehold.co/600x400/DCEDC8/689F38?text=Happy+Customers" alt="Happy Customers" class="w-full h-64 object-cover">
+                <div class="p-6">
+                    <p class="text-lg font-semibold text-gray-800">Customer Satisfaction</p>
+                    <p class="text-gray-600 mt-2">Bringing healthy and delicious options to everyone.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="bg-green-600 text-white py-16 rounded-t-lg shadow-xl">
+        <div class="container mx-auto px-4 text-center">
+            <h3 class="text-4xl font-bold mb-8">Get in Touch with Poptalk</h3>
+            <p class="text-xl mb-6">
+                Have questions or interested in partnering with us? We'd love to hear from you!
+            </p>
+            <p class="text-2xl font-semibold">
+                Email us at: <a href="mailto:info@poptalk.co.in" class="underline hover:text-green-200 transition duration-300">info@poptalk.co.in</a>
+            </p>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer class="bg-gray-800 text-white py-8 text-center">
+        <div class="container mx-auto px-4">
+            <p>&copy; 2024 Poptalk. All rights reserved.</p>
+            <p class="mt-2 text-sm">Designed with <span class="text-red-500">&hearts;</span> by Poptalk</p>
+        </div>
+    </footer>
+</body>
+</html>
